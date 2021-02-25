@@ -1,0 +1,156 @@
+/*Code your styling rules for element tags first*/
+
+body {
+  text-align: center;
+  background: rgb(233, 238, 255);
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+}
+
+div 
+
+h1 {font-family: Arial ; font-size: 33px
+}
+
+h2 {color: rgb(148, 172, 255); font: italic
+}
+
+img {
+  height: 90px;
+  
+}
+
+
+
+div 
+
+ul {
+  padding-left: 0;
+}
+
+ul > li {
+  display:
+
+}
+
+a {
+  text-decoration: none;
+ 
+}
+
+i {
+  font-size: 50px;
+}
+
+i:hover {
+  color: black;
+}
+
+
+
+/*Code your class and id styling here*/
+
+.container {
+  margin: 20px auto;
+  width: 700px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.button-green {
+  background-color: darkseagreen;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 2s;
+}
+
+.button-green:hover {
+  background-color: lightgreen;
+}
+
+.banner {
+  height: 500px;
+  background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 25%), url(images/banner.jpeg);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner > h1, .banner > h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+}
+
+.white-card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 3px 5px 10px rgba(230, 230, 230, 0.1);
+  width: 100%;
+}
+
+.motorbike-cards {
+  display: flex;
+  justify-content: space-around;
+  /* Try resizing your browser and see what happens to your motorbike-card elements. Then uncomment the line 97 by removing the slash and asterix before and after flex-wrap to see what flex-wrap does to make the elements responsive 👀 */
+/*  flex-wrap: wrap; */
+}
+
+.motorbike-card {
+  box-shadow: 1px 3px 5px rgba(230, 230, 230, 0.6);
+  width: 200px;
+  margin: 10px;
+}
+
+.motorbike-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+.logo_ecole {
+    height: 52px;
+}
+
+.year_total {
+
+}
+
+.elements_in_line {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.photo_identité {
+  height: 157px; 
+  border-radius: 80%
+}
+
+.logo-entreprise {
+  height: 52px
+}
+
+.school-year {
+  font-style: italic;
+}
+
+.diploma {
+  font-weight: 900;
+}
